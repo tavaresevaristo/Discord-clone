@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="pt">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Tavares Evaristo">
+  <meta name="description"
+    content="Discord é a maneira mais fácil de falar por voz, vídeo e texto. Fale, converse, saia e fique perto de seus amigos e comunidades.">
+
+
+  <link rel="icon" href="./img/Discord-Logo-Circle.png">
+  <link rel="stylesheet" href="estilo2.css">
+  <title>DISCORD | Seu Lugar para Papear e Ficar De Boa </title>
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!--google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500&display=swap"
+    rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500&display=swap"
+    rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <!-- link bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div class="main">
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+
+        <img src="./img/logo-white.png" class="img-fluid" id="logo">
+
+        <button class="navbar-toggler btn-light" id="btnICON" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mt-3" id="navbarNav">
+          <ul class="navbar-nav">
+
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Download</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Nitro</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Safety</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Support</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Blog</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Careers</a>
+            </li>
+          </ul>
+        </div>
+        <button class="d-none d-md-block" id="buttonLogin">Login</button>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <div class="justify-content-md-center justify-content-lg-center text-md-center text-lg-center mt-2 pt-2">
+        <div class="py-3">
+          <h1 class="text-white">Imagine um Lugar…</h1>
+          <p class="text-white">…onde você possa pertencer a um clube escolar, um grupo de gamers, ou uma comunidade
+            <br class="hide-on-mobile">
+            artística
+            mundial. Onde você e alguns amigos possam passar um tempo juntos. Um lugar <br class="hide-on-mobile"> que
+            torna fácil conversar
+            todos
+            os dias e socializar com mais frequência.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-2">
+      <div class="justify-content-md-center justify-content-lg-center text-md-center text-lg-center mt-0 pt-0">
+        <div class="pb-3">
+          <button id="download-button2" class="btn btn-light btn-lg px-4">
+            <i class="bi bi-download text-dark"></i>
+            <span> Baixar</span>
+          </button>
+          <button id="open" class="btn btn-dark btn-lg px-4">Abra o Discord no seu navegador</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="container mb-5" id="section1">
+
+    <div class="container">
+      <div class="row pt-5">
+
+        <div class="col-lg-8 col-md-12">
+          <img src="img/study.svg" class="img-fluid">
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <h3 class="text-dark mt-5">Crie um espaço controlado por convite onde você se sinta em
+            casa</h1>
+            <p id="meuP" class="text-dark">
+              Os servidores Discord são organizados em canais com assuntos para vocês colaborarem, compartilharem ou
+              simplesmente falarem do dia sem entupir um chat geral.
+            </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="bg-light pt-5 mt-5" id="section1">
+    <div class="container">
+      <div class="row pt-5">
+
+        <div class="col-lg-4 col-sm-12">
+          <h3 class="text-dark mt-5 display-5 text-bold p-2">Aqui é fácil se encontrar</h3>
+          <p>
+            Entre no canal de voz quando estiver à toa. Amigos no mesmo servidor podem te ver e entrar imediatamente,
+            sem nem ter que fazer a chamada.
+          </p>
+        </div>
+
+        <div class="col-lg-8 col-md-12 ">
+          <img src="img/voice.svg" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="container mt-5 mb-5" id="section1">
+
+    <div class="container">
+      <div class="row pt-5">
+        <div class="col-lg-8 col-md-12">
+          <img src="img/coach.png" alt="" class="img-fluid">
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <h3 class="text-dark mt-5 display-5 text-bold">Para poucos e para muitos</h1>
+            <p>
+              Organize qualquer comunidade com ferramentas de moderação e acesso personalizado a membros. Dê poderes
+              especiais aos membros, monte canais privados e muito mais.
+            </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="container-fluid mt-5 pt-5 mb-5" id="section2">
+
+    <div class="container-sm text-content mt-5 pt-5">
+      <h3 class="display-5 text-md-center text-lg-center text-dark"> TECNOLOGIA DE CONEXÃO <br> CONFIÁVEL </h1>
+        <p class="text-md-center text-lg-center text-sm-left mt-4 px-5"> Voz e vídeo de baixa latência, para você
+          conversar
+          como se estivesse na mesma sala. Dê um joinha por vídeo, veja amigos transmitirem a jogatina do dia ou junte
+          uma
+          galera pra desenhar na tela compartilhada. </p>
+    </div>
+
+    <div>
+      <img src="img/just.jpg" class="mx-auto d-block img-fluid">
+    </div>
+
+
+    <div class="h1 mt-5 pt-5" id="jornada">
+      <div class="content">
+        <h1 class="text-center">Vamos começar sua jornada?</h1>
+      </div>
+
+      <div class="Btn">
+        <div class="text-center mt-4">
+          <button id="download-button" class="btn btn-primary btn-lg px-4">
+            <i class="bi bi-download"></i>
+            <span> Baixar </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer id="footer" class="bg-dark">
+    <div class="container bg-dark mt-5">
+
+      <div class="row text-light">
+        <div class="col-12 col-lg-4">
+
+          <div class="dropdown">
+
+            <div class="select">
+              <img src="./img/flag/portugal.png" alt="" class="img-fluid">
+              <span class="selected">Idioma selecionado</span>
+              <div class="caret"></div>
+            </div>
+
+            <ul class="menu">
+              <li data-flag="./img/flag/portugal.png">Português europeu</li>
+              <li data-flag="./img/flag/brasil.png">Português do brasil</li>
+              <li data-flag="./img/flag/france.png">Francês</li>
+              <li data-flag="./img/flag/united-states.png">Inglês</li>
+              <li class="active" data-flag="./img/flag/spain.png">Espanhol</li>
+              <li data-flag="./img/flag/italy.png">Italiano</li>
+            </ul>
+          </div>
+
+          <div class="social-media">
+            <ul>
+              <li> <i class="fa-brands fa-twitter"></i> </li>
+              <li> <i class="fa-brands fa-instagram"></i> </li>
+              <li> <i class="fa-brands fa-square-facebook"></i> </li>
+              <li> <i class="fa-brands fa-youtube"></i> </li>
+              <li> <i class="fa-brands fa-tiktok"></i> </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-8">
+          <div class="row">
+            <div class="col-6 col-lg-3 mt-5">
+              <div class="content">
+                <span>Productos</span>
+                <div class="links">
+                  <a href="#">Baixar</a>
+                  <a href="#">Nitro</a>
+                  <a href="#">Status</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-lg-3 mt-5">
+              <div class="content">
+                <span>Empresa</span>
+                <div class="links">
+                  <a href="#">Sobre</a>
+                  <a href="#">Empregos</a>
+                  <a href="#">Marca</a>
+                  <a href="#">Sala de imprensa</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-lg-3 mt-5">
+              <div class="content">
+                <span>Recursos</span>
+                <div class="links">
+                  <a href="#">Faculdade</a>
+                  <a href="#">Suporte</a>
+                  <a href="#">Segurança</a>
+                  <a href="#">Blog</a>
+                  <a href="#">Comentários</a>
+                  <a href="#">Developers</a>
+                  <a href="#">StreamKit</a>
+                  <a href="#">Creators</a>
+                  <a href="#">Community</a>
+                  <a href="#">Official 3rd Party Merch</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-lg-3 mt-5">
+              <div class="content">
+                <span>Políticas</span>
+                <div class="links">
+                  <a href="#">Termos</a>
+                  <a href="#">Privacidade</a>
+                  <a href="#">Configurações de cookies</a>
+                  <a href="#">Diretrizes</a>
+                  <a href="#">Reconhecimentos</a>
+                  <a href="#">Licenças</a>
+                  <a href="#">informações da empresa</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="mt-5">
+      </div>
+
+      <div id="footer-end pt-2 pb-5">
+        <div id="content">
+          <div class="logo">
+            <img src="./img/logo-white.png" class="img-fluid" id="logo1">
+          </div>
+
+          <div id="register">
+            <button id="btn-reg">Registrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,395 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.100)50%, rgba(0, 0, 0, 0.100)50%), url(./img/home-background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav .container .navbar-toggler {
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: white !important;
+}
+
+#btnICON {
+    background-color: #fff;
+}
+
+#navbarNav {
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+#navbarNav ul li a {
+    color: #fff !important;
+    font-size: 15px;
+    margin-left: 21px;
+}
+
+#navbarNav ul li a:hover {
+    transition: all;
+    color: #ffffffee !important;
+    text-decoration: underline;
+}
+
+#logo {
+    height: 20px;
+    width: 100px;
+}
+
+#logo1 {
+    height: 25px;
+    width: 120px;
+}
+
+#buttonLogin {
+    border: none;
+    font-size: 15px;
+    padding: 7px 15px;
+    color: #000;
+    background-color: #fff;
+}
+
+#buttonLogin:hover {
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.1);
+    color: #3b4bf8;
+}
+
+.container h1 {
+    color: #FFFFFF;
+    color: RGB(255, 255, 255);
+    background-color: #000000;
+    background-color: RGBA(0, 0, 0, 0);
+
+    font-family: "Titan One", cursive;
+    font-size: 78px;
+    font-weight: 500;
+    line-height: 93.6px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: normal;
+    word-spacing: 0px;
+    margin-top: 4rem;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    text-decoration: none solid rgb(255, 255, 255);
+}
+
+.container p {
+    font-size: 19px;
+    margin-top: 20px;
+    color: aliceblue !important;
+    font-weight: 300;
+}
+
+.container button {
+    border-radius: 25px;
+    padding: 13px 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.container button:hover {
+    color: #404eed !important;
+    transform: translateY(-3px);
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.1);
+}
+
+.container #download-button {
+    margin-left: 12px;
+}
+
+.container #download-button:hover {
+    color: #404eed !important;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.container #open:hover {
+    color: #404eed !important;
+    background-color: #23272a !important;
+}
+
+@media screen and (max-width: 650px) {
+    .container button {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container h1 {
+        margin-top: 0px;
+        font-size: 30px;
+        text-align: left;
+        margin-left: 15px;
+    }
+
+    .container p {
+        margin-top: 0px;
+        font-size: 14.5px;
+        line-height: 23px;
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+
+    .container p .hide-on-mobile {
+        display: none;
+    }
+}
+
+#section1 h3 {
+    line-height: 55px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 800;
+}
+
+#section1 p {
+    color: #0f0f0f !important;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+#section2 h3 {
+    line-height: 55px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 800;
+}
+
+#section2 p {
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 650px) {
+    #section1 h3 {
+        line-height: 23px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 19px;
+        font-style: normal;
+        font-variant-caps: normal;
+        font-variant-east-asian: normal;
+        font-variant-ligatures: normal;
+        font-variant-numeric: normal;
+        font-weight: 800;
+    }
+
+    #section1 p {
+        color: #0f0f0f !important;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-size: 14.5px;
+        line-height: 25px;
+        padding-top: 10px;
+        margin: 0;
+    }
+
+    #section2 h3 {
+        line-height: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-variant-caps: normal;
+        font-variant-east-asian: normal;
+        font-variant-ligatures: normal;
+        font-variant-numeric: normal;
+        font-weight: 800;
+    }
+
+    #section2 p {
+        font-size: 14.5px;
+        margin: 0;
+        padding: 0 !important;
+    }
+}
+
+
+#footer {
+    margin-top: 7rem;
+}
+
+footer .container .row .col-12 .dropdown .select img {
+    width: 10%;
+}
+
+footer .container .row .col-12 .dropdown * {
+    box-sizing: border-box;
+}
+
+footer .container .row .col-12 .dropdown {
+    min-width: 15rem;
+    position: relative;
+    margin: 2rem;
+}
+
+footer .container .row .col-12 .dropdown .select {
+    background: #2a2f3b;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #2a2f3b;
+    border-radius: 0.5rem;
+    padding: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+footer .container .row .col-12 .dropdown .select-clicked {
+    border: 2px solid #26489a;
+    box-shadow: 0 0 0.8em #26489a;
+}
+
+footer .container .row .col-12 .dropdown .select:hover {
+    background: #323741;
+}
+
+footer .container .row .col-12 .dropdown .select .caret {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #fff;
+    transition: 0.3s;
+}
+
+footer .container .row .col-12 .dropdown .select .caret-rotate {
+    transform: rotate(180deg);
+}
+
+footer .container .row .col-12 .dropdown .menu {
+    padding: 0.2em 0.5em;
+    background: #323741;
+    border: 1px solid #363a43;
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
+    border-radius: 0.5em;
+    color: #9fa5b5;
+    position: absolute;
+    top: 5em;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    opacity: 0;
+    display: none;
+    transition: 0.2s;
+    z-index: 1;
+}
+
+footer .container .row .col-12 .dropdown .menu li {
+    padding: 0.7em 0.5em;
+    margin: 0.3em 0;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+footer .container .row .col-12 .dropdown .menu li:hover {
+    background: #2a2d35;
+}
+
+footer .container .row .col-12 .dropdown .menu li .active {
+    background: #23242a;
+}
+
+footer .container .row .col-12 .dropdown .menu-open {
+    display: block;
+    opacity: 1;
+}
+
+
+@media (max-width: 767px) {
+
+    footer .container .row .col-12 .dropdown .select img {
+        width: 5%;
+    }
+}
+
+footer .container .row .col-12 .social-media {
+    margin-top: 7px;
+}
+
+
+footer .container .row .col-12 .social-media ul {
+    display: flex;
+}
+
+footer .container .row .col-12 .social-media ul li {
+    margin-right: 19px;
+    font-size: 22px;
+    transition: .2s;
+}
+
+footer .container .row .col-12 .social-media ul li:hover {
+    opacity: .60;
+}
+
+footer .container .row .col-12 .content span {
+    color: #5865f2 !important;
+}
+
+footer .container .row .col-6 .content .links {
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .container .row .col-6 .content .links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 8px 0;
+    transition: 0.3s;
+}
+
+footer .container .row .col-6 .content .links a:hover {
+    text-decoration: underline;
+}
+
+hr.mt-5 {
+    border: none;
+    height: 2px;
+    background-color: #3b4bf8;
+}
+
+footer #content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-bottom: 60px;
+}
+
+footer #btn-reg {
+    border: none;
+    border-radius: 15px;
+    padding: 8px 12px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #4C5BBE;
+}
